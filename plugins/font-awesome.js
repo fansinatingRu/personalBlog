@@ -7,7 +7,6 @@ import { faHtml5, faCss3Alt, faVuejs, faJs, faTypo3, faPhp, faSymfony, faGitAlt,
 config.autoAddCss = false
 
 library.add(
-    faMoon, faSun, faCode, faTools, faAngleLeft, faHeart,
     faHtml5, faCss3Alt, faVuejs, faJs, faTypo3, faPhp, faSymfony, faGitAlt, faBootstrap, faSass,  faYoutube, faTwitter, faInstagram, faPatreon, faLinkedin
   )
 
