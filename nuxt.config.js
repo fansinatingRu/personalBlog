@@ -2,6 +2,10 @@
 export default {
   mode: 'universal',
   target: 'static',
+  router: {
+    base: '/personalBlog/'
+  },
+
   /*
   ** Headers of the page
   */
@@ -45,7 +49,7 @@ export default {
   buildModules: [
     '@nuxt/components'
   ],
-  components: true, 
+  components: true,
   /*
   ** Nuxt.js modules
   */
@@ -99,7 +103,7 @@ export default {
           link: 'https://webnoob.dev/feed.xml',
           description: 'Tutorials, courses, and articles about Vue.js and other related stuff. And some plain good old advice.'
         }
-        
+
         const { $content } = require('@nuxt/content')
         const articles = await $content('articles').sortBy('date', 'desc').fetch()
 
@@ -125,7 +129,7 @@ export default {
       },
       cacheTime: 1000 * 60 * 15, // How long should the feed be cached
       type: 'rss2', // Can be: rss2, atom1, json1
-    }    
+    }
   ],
   generate: {
     // subfolders would create redirects on netlify
