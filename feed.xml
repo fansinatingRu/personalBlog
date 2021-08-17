@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>webnoob.dev</title>
+        <link>https://webnoob.dev/feed.xml</link>
+        <description>Tutorials, courses, and articles about Vue.js and other related stuff. And some plain good old advice.</description>
+        <lastBuildDate>Tue, 17 Aug 2021 16:21:36 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/nuxt-community/feed-module</generator>
+        <item>
+            <title><![CDATA[I open-sourced my Nuxt.js blog]]></title>
+            <link>https://webnoob.dev/articles/open-sourcing-nuxt-blog</link>
+            <guid>https://webnoob.dev/articles/open-sourcing-nuxt-blog</guid>
+            <pubDate>Wed, 18 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[My PersonalBlog I've built]]></description>
+            <content:encoded><![CDATA[My PersonalBlog I've built]]></content:encoded>
+        </item>
+        <item>
+            <title><![CDATA[Getting started with Nuxt.js]]></title>
+            <link>https://webnoob.dev/articles/getting-started-with-nuxt</link>
+            <guid>https://webnoob.dev/articles/getting-started-with-nuxt</guid>
+            <pubDate>Wed, 18 Aug 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[This tutorial is all about, what Nuxt.js in detail is, which features you are getting, and how you can create your first project]]></description>
+            <content:encoded><![CDATA[This tutorial is all about, what Nuxt.js in detail is, which features you are getting, and how you can create your first project]]></content:encoded>
+        </item>
+    </channel>
+</rss>
