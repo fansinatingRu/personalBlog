@@ -3,9 +3,9 @@ title: "Getting started with Nuxt.js"
 date: "2020-06-05"
 description: "This tutorial is all about, what Nuxt.js in detail is, which features you are getting, and how you can create your first project"
 image: "getting-started-with-nuxt.jpg"
-author: 
-  twitter: "webnoobcodes"
-  name: "Mario Laurich"
+author:
+twitter: "fansinatingRu"
+name: "Mario Laurich"
 ---
 
 If you're building applications with Vue.js, you've probably heard of Nuxt.js. Vue already makes the development of JavaScript applications more convenient, but what's the idea behind Nuxt.js?
@@ -31,7 +31,7 @@ Nuxt makes creating universal apps easier.
 A universal app can execute on both the client and the server-side.
 If you create a single page application with Vue.js, you have a lot of benefits.
 
-For example, you can make very *snappy* UIs that updates fast. But, and this is a problem, Google and other search engines struggle with them because there's no content initially on the page to crawl for SEO purposes. 
+For example, you can make very *snappy* UIs that updates fast. But, and this is a problem, Google and other search engines struggle with them because there's no content initially on the page to crawl for SEO purposes.
 
 All the content is rendered with JavaScript after the fact.
 
@@ -53,7 +53,7 @@ It's mighty because you get the benefits of universal rendering without the need
 
 ## Create a new Nuxt.js project
 
-You know we can create a new project with `vue create` and then the project-name if you use the vue cli service. 
+You know we can create a new project with `vue create` and then the project-name if you use the vue cli service.
 
 ```bash
 vue create project-name
@@ -61,7 +61,7 @@ vue create project-name
 
 But if you want to create a Nuxt project, we have to use another tool - `npx`.
 The difference to npm is that npx is a tool to execute node.js packages. npm is only a manager for download and installing node packages.
-And it's shipped by default since node package manager in version 5, and you don't have to install it separately. 
+And it's shipped by default since node package manager in version 5, and you don't have to install it separately.
 
 But if you don't have it for some reason, you can install it with `npm install -g npx`, -g to install it globally.
 
@@ -126,7 +126,7 @@ You have here also access to the Vuex store and the Vue Router.
 
 You can do here a lot of great stuff. Very powerful.
 
-The **pages directory** contains your application views and routes. 
+The **pages directory** contains your application views and routes.
 Nuxt reads all the .vue files inside this directory and creates the application router automatically.
 
 And Nuxt provides for each component a bunch of additional attributes you can use. For example, which layout you want to use if you have some.
@@ -219,7 +219,7 @@ You have probably already noticed that we don't have here a `main.js` file or an
 Well, *you don't need it*. Each component in the pages directory is basically a root component from a specific route. And the fantastic thing is you can for each route set up a different layout if you want.
 
 Additional libraries and other javascript pieces, to register global components and other stuff, can you set up as a plugin.
-To me, it all seems well organized and tidy. 
+To me, it all seems well organized and tidy.
 
 Now it's your turn. Create your first Nuxt project today and play around with the new possibilities.
 And if you want to see more, I already have a video tutorial about how you can create distinct layouts for mobile and desktop.

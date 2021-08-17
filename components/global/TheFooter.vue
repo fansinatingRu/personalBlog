@@ -3,7 +3,7 @@
     <fa-icon :icon="['fad', 'code']" />
     with
     <fa-icon :icon="['fad', 'heart']" />
-    by Mario Laurich ©2020,
+    by fansinatingRu ©2021,
     built with <img :src="require('~/assets/nuxt.svg')" width="20px" alt="Nuxt.js" />
   </footer>
 </template>

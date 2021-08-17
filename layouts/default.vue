@@ -2,18 +2,17 @@
   <div :class="theme">
     <div id="scroll-progress-container">
       <div class="scroll-progress" :style="{'width': progressWidth+'%'}"></div>
-    </div>    
+    </div>
     <div class="base">
       <div class="main-container">
         <TheHeader :theme="darkTheme" @changeTheme="toggleTheme" />
         <nuxt />
         <TheFooter />
         <div class="bottom-links">
-          <nuxt-link to="/legal-notice">legal notice</nuxt-link>
-        </div>        
+        </div>
       </div>
-    </div>    
-  </div>  
+    </div>
+  </div>
 </template>
 
 <script>
@@ -54,7 +53,7 @@
       else {
         this.darkTheme = JSON.parse(localStorage.getItem("darkTheme"));
       }
-      window.addEventListener("scroll", this.scrollPosition);      
+      window.addEventListener("scroll", this.scrollPosition);
     },
     beforeDestroy() {
       window.removeEventListener("scroll", this.scrollPosition);

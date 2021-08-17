@@ -1,9 +1,9 @@
 <template>
   <header id="the-header">
     <div class="logo">
-      <nuxt-link to="/">
-        <img :src="require('~/assets/webnoob-60x60.png')" :srcset="require('~/assets/webnoob-60x60.png')+' 1x, '+require('~/assets/webnoob-120x120.png')+' 2x'" alt="webnoob">
-      </nuxt-link>
+<!--      <nuxt-link to="/">-->
+<!--&lt;!&ndash;        <img :src="require('~/assets/webnoob-60x60.png')" :srcset="require('~/assets/webnoob-60x60.png')+' 1x, '+require('~/assets/webnoob-120x120.png')+' 2x'" alt="webnoob">&ndash;&gt;-->
+<!--      </nuxt-link>-->
     </div>
     <nav>
       <ul>
@@ -13,7 +13,7 @@
       </ul>
     </nav>
     <div class="theme-toggle" @click="toggleTheme">
-      <fa-icon :icon="icon" :style="style" size="lg" />
+    <button class="btn">toogle theme</button>
     </div>
   </header>
 </template>
@@ -36,3 +36,9 @@
     }
   }
 </script>
+<style>
+.btn{
+  border-radius: 5px;
+  font-family: 'Righteous', 'Inter', sans-serif;
+}
+</style>

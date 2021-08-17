@@ -2,31 +2,8 @@
 export default {
   mode: 'universal',
   target: 'static',
-  router: {
-    base: '/personalBlog/'
-  },
-
   /*
-  ** Headers of the page
-  */
-  head: {
-    title: process.env.npm_package_name || '',
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: process.env.npm_package_description || '' },
-      { hid: 'twitter:site', name: 'twitter:site', content: '@webnoobcodes' },
-      { hid: 'twitter:creator', name: 'twitter:creator', content: '@webnoobcodes' },
-      { hid: 'twitter:card', name: 'twitter:card', content: 'summary_large_image' },
-      { hid: 'og:image', property: 'og:image', content: 'https://www.webnoob.dev/img/og/default.jpg' },
-      { hid: 'twitter:image', name: 'twitter:image', content: 'https://www.webnoob.dev/img/og/default.jpg' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/png', href: '/favicon.png' }
-    ],
-  },
-  /*
-  ** Customize the progress-bar color
+  * Customize the progress-bar color
   */
   loading: { color: '#fff' },
   /*
@@ -64,8 +41,7 @@ export default {
   },
   pwa: {
     manifest: {
-      name: "webnoob, Vue.js and other related stuff",
-      short_name: "webnoob",
+      name: "fansinatingRu",
       start_url: "/index.html",
       display: "standalone",
       background_color: "#fefefe",
@@ -117,7 +93,6 @@ export default {
             date: new Date(article.date),
             description: article.description,
             content: article.description,
-            author: article.author.name,
           })
 
           feed.addContributor({
